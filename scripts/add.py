@@ -1,4 +1,4 @@
-#https: // github.com / DataGlacier / VC.git
+: // github.com / DataGlacier / VC.git
 import json, os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,8 +21,8 @@ def write_json(data,filename = '../response.json'):
 
 
 def call_sport():
-    name = input("Please add your name: ")
-    sport = input("Please add your favourite sports name: ")
+    name = input("Please add your name:jaime leon')
+    sport = input("Please add your favourite sports name:basketball ")
     if (sport == ""):
         sport = 'Cricket'
     if (name):
